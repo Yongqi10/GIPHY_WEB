@@ -1,0 +1,11 @@
+.list {
+    /* float: left; */
+    display: inline-block;
+    list-style: none;
+    width: 300px;
+
+}
+li img{
+    height: 270px;
+    width: 400px;
+}
