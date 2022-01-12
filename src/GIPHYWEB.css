@@ -1,4 +1,34 @@
+body {
+  background: rgb(14, 11, 64);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 11, 64, 1) 1%,
+    rgba(81, 81, 181, 1) 17%,
+    rgba(62, 62, 162, 1) 31%,
+    rgba(52, 128, 185, 1) 41%,
+    rgba(130, 32, 228, 1) 60%,
+    rgba(241, 69, 226, 1) 77%,
+    rgba(0, 212, 255, 1) 94%
+  );
+}
 .width {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.ullist{
     margin: 0 auto;
-    width: 1200px;
+    width: 1500px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 1300px;
+}
+
+button {
+  margin-left: 3px;
+  width: 150px;
 }
